@@ -1,14 +1,72 @@
 
 
+a{
+	margin-left: 5px;
+}
 
 
+ul{
+	display: flex;
+}
+
+nav li{
+list-style-type: none;
+
+}
+
+.recherche{
+	display: flex;
+position: relative;
+left: 26%;
+bottom: 80px;
+width: 135px;
+height: 55px;
+
+}
+
+h1{
+	text-align: center;
+	text-align: center;
+width: 360px;
+position: relative;
+bottom: 120px;
+}
+
+h2{
+	position: relative;
+	text-align: center;
+    width: 355px;
+}
 
 
+.contact li{
+	padding-left: 20px;
+list-style-type: none;
+	
+
+}
+
+/*
+
+.contact p{
+	position: relative;
+top: 20px;
+right: 103px;
+}
+*/
 
 
+footer {
+	background-color: blue;
 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
-
+.div-footer {
+	width: 30%;
+}
 
 
 
@@ -38,5 +96,5 @@
 
 
 @media (min-width: 900px){
-	
+
 }
